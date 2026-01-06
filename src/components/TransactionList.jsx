@@ -1,5 +1,5 @@
 import { Edit2, IndianRupeeIcon, Search, Trash2 } from "lucide-react";
-import React from "react";
+
 import { Receipt } from "lucide-react";
 
 const TransactionList = ({ expenses, onDelete, onEdit, searchTerm, setSearchTerm, filterCategory, setFilterCategory }) => {
