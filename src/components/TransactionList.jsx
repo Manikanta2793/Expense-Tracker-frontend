@@ -60,7 +60,8 @@ const TransactionList = ({ expenses, onDelete, onEdit, searchTerm, setSearchTerm
 
                 </div>
                 <select className="ps-4 py-3 bg-gray-50 border-2 border-gray-200 
-                rounded-xl text-sm focus:outline-none focus:border-indigo-500 cursor-pointer" value={filterCategory}>
+                rounded-xl text-sm focus:outline-none focus:border-indigo-500 cursor-pointer" value={filterCategory}
+                onChange={(e) => setFilterCategory(e.target.value)}>
                     <option value="All">
                         All
                     </option>
